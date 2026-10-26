@@ -1,0 +1,24 @@
+{
+  "server_url": "http://YOUR-SERVER-ADDRESS:5000/api/alert",
+  "poll_interval_seconds": 5,
+  "device_id": "AUTO",
+  "categories": {
+    "social_media": {
+      "window_title_keywords": [
+        "instagram", "facebook", "- x", "x.com", "twitter",
+        "tiktok", "snapchat", "whatsapp web", "reddit"
+      ],
+      "process_names": []
+    },
+    "gaming": {
+      "window_title_keywords": [
+        "minecraft", "roblox", "fortnite", "steam", "epic games",
+        "valorant", "among us", "poki.com", "crazygames"
+      ],
+      "process_names": [
+        "steam.exe", "epicgameslauncher.exe", "robloxplayerbeta.exe",
+        "minecraft.exe", "riotclientservices.exe"
+      ]
+    }
+  }
+}
